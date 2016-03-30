@@ -1,0 +1,18 @@
+{
+  "name": "cordovaapp",
+  "version": "1.0.0",
+  "description": "cordova app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://ghe.bcbsnc.com/anandkrishnankutty/CordovaApp.git"
+  },
+  "author": "anand bhavani krishnankutty",
+  "license": "ISC",
+  "devDependencies": {
+    "cordova": "^6.1.0"
+  }
+}
