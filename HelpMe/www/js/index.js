@@ -44,11 +44,9 @@ var app = {
        // listeningElement.setAttribute('style', 'display:none;');
         //receivedElement.setAttribute('style', 'display:block;');
 
-
-
         //console.log('Received Event: ' + id);
-        console.log(navigator.camera);
-        navigator.camera.getPicture(cameraSucess,cameraError,{quality:50,destinationType:Camera.DestinationType.FILE_URI});
+       // console.log(navigator.camera);
+      /*  navigator.camera.getPicture(cameraSucess,cameraError,{quality:50,saveToPhotoAlbum:true,destinationType:Camera.DestinationType.FILE_URI});
 
         function cameraSucess(imageURI)
         {
@@ -58,7 +56,7 @@ var app = {
         function cameraError()
         {
             alert('failed because-'+message);
-        }
+        }*/
     }
 };
 
