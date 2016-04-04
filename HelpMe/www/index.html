@@ -38,12 +38,13 @@
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <title>Hello World</title>
 </head>
-<body>
-<div class="container fill">
-    <ul class="list-group">
-        <li class="list-group-item">Take Snap</li>
-        <li class="list-group-item">Play Video</li>
-    </ul>
+<body ng-app="cordovaApp">
+<div ng-controller="snapController" class="container fill">
+    <div class="list-group">
+        <a href="#photo" class="list-group-item">Take Snap</a>
+        <a href="#" class="list-group-item">Play Video</a>
+    </div>
+    <div ng-view></div>
 </div>
 <!-- <div class="app">
     <h1>Apache Cordova</h1>
@@ -53,8 +54,12 @@
      </div>
  </div>-->
 <script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/angular.min.js"></script>
+<script type="text/javascript" src="js/angular-route.min.js"></script>
 <script type="text/javascript" src="cordova.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/snapIt.js"></script>
+<script type="text/javascript" src="js/PhotoController.js"></script>
 </body>
 </html>
