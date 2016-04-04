@@ -41,8 +41,10 @@
 <body ng-app="cordovaApp">
 <div ng-controller="snapController" class="container fill">
     <div class="list-group">
-        <a href="#photo" class="list-group-item">Take Snap</a>
-        <a href="#" class="list-group-item">Play Video</a>
+        <a href="#photo" class="list-group-item list-group-item-info">Take Snap</a>
+        <a href="#video" class="list-group-item list-group-item-danger">Play Video</a>
+        <a href="#geolocation" class="list-group-item list-group-item-success">Your Geo Location</a>
+        <a href="#geolocation" class="list-group-item list-group-item-success">Weather Info</a>
     </div>
     <div ng-view></div>
 </div>
