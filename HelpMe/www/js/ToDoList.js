@@ -5,7 +5,7 @@ angular.module('cordovaApp', ['ngRoute']).config(['$routeProvider', function ($r
             controller: 'photoController'
         }).otherwise(
         {redirectTo: 'index.html'});
-}]).controller('snapController', ['$scope', function ($scope) {
+}]).controller('toDoListController', ['$scope', function ($scope) {
 
 
 }]);
