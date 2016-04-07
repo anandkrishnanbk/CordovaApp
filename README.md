@@ -1,2 +1,3 @@
 # CordovaApp
-Cordova app
+
+CordovaApp with plugins

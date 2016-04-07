@@ -13,6 +13,9 @@
   "author": "anand bhavani krishnankutty",
   "license": "ISC",
   "devDependencies": {
-    "cordova": "^6.1.0"
+    "angular": "^1.5.3",
+    "bootstrap": "^3.3.6",
+    "cordova": "^6.1.0",
+    "jquery": "^2.2.2"
   }
 }
