@@ -1,3 +1,3 @@
 # CordovaApp
 
-CordovaApp with plugins
+### Sample CordovaApp to test cordova plugins
