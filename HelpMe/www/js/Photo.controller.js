@@ -9,7 +9,6 @@
             if(resp)
             {
                 $scope.myImage = resp;
-                console.log('aa');
             }
 
         });
